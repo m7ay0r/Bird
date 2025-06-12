@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird - Social Network</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8f5fd;
+      margin: 0;
+      padding: 0;
+      color: #0f1419;
+    }
+    .navbar {
+      background-color: #1da1f2;
+      padding: 1rem;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 80px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #1da1f2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background-color: #0d8de1;
+    }
+    .about {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      text-align: center;
+      color: #555;
+    }
+    .post {
+      background-color: #f5f8fa;
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #dfe3e6;
+    }
+    .post-user {
+      font-weight: bold;
+      color: #1da1f2;
+    }
+    .post-text {
+      margin-top: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #657786;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">Bird</div>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" alt="Bird Logo" class="logo">
+    <h1>Welcome to Bird</h1>
+    <p style="text-align:center;">
+      Developed by <strong>Mahmoud Haidar</strong> in 2013.<br>
+      Connect. Share. Fly.
+    </p>
+
+    <button class="btn" onclick="document.getElementById('login-section').scrollIntoView({ behavior: 'smooth' });">Login</button>
+
+    <div class="about">
+      <p>Bird is a simple, clean, and friendly social platform used by thousands across the world.</p>
+    </div>
+
+    <div id="login-section" class="login-box" style="margin-top:40px; padding:20px; background:white; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.05);">
+      <h2 style="color:#1da1f2; text-align:center;">Login to Bird</h2>
+      <input type="text" placeholder="Username" style="width:95%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;"><br>
+      <input type="password" placeholder="Password" style="width:95%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;"><br>
+      <button style="padding:10px 20px; background-color:#1da1f2; color:white; border:none; border-radius:5px; cursor:pointer; width:100%;">Login</button>
+    </div>
+
+    <div class="post">
+      <div class="post-user">@emily_rose</div>
+      <div class="post-text">Just joined Bird and loving the peaceful vibes here! 🕊️ #NewHere</div>
+    </div>
+
+    <div class="post">
+      <div class="post-user">@techguy92</div>
+      <div class="post-text">Bird is so clean and minimal. Finally something fresh.</div>
+    </div>
+
+    <div class="post">
+      <div class="post-user">@kevin_travel</div>
+      <div class="post-text">Met cool people on Bird from 3 different countries in one week! 🌍</div>
+    </div>
+
+    <div class="post">
+      <div class="post-user">@ai_gal</div>
+      <div class="post-text">This platform feels like 2010s nostalgia. I love it.</div>
+    </div>
+
+    <div class="post">
+      <div class="post-user">@zen_life</div>
+      <div class="post-text">Bird has no distractions, just thoughts. Simplicity is beauty.</div>
+    </div>
+
+    <div class="post">
+      <div class="post-user">@dev_ahmed</div>
+      <div class="post-text">محمود! ليك مستقبل باهر في مجال التكنولوجيا! 🇪🇬💻</div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2013 - 2025 Bird, Inc. — Made with ❤️ by Mahmoud Haidar
+  </footer>
+</body>
+</html>
